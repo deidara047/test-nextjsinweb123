@@ -6,7 +6,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('http://localhost:3000/api');
+      const response = await fetch('https://test-nextjsinweb123.vercel.app/api');
       const result = await response.json();
       setData(result);
       console.log(result);
